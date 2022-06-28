@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+:root {
+  --header-footer: #1f2937;
+  --header-logo: #f9faf8;
+  --nav-item: #e5e7eb;
+  --button-color: #3883f6;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.header {
+  background-color: #1f2937;
+  min-height: 370px;
+}
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px 80px 0px;
+}
+a {
+  text-decoration: none;
+  color: var(--nav-item);
+}
+ul li {
+  display: inline-block;
+  margin: 0px 5px;
+}
+.header-intro {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  height: 275px;
+}
+
+.header-content {
+  margin-right: 20px;
+  position: absolute;
+  width: 60%;
+  /* background-color: green; */
+}
+.header-intro img{
+    width: 20%;
+}
+.header-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--header-logo);
+}
+.header-content p {
+  color: var(--nav-item);
+  font-size: 18px;
+}
+.header-button {
+  color: var(--header-logo);
+  margin-top: 10px;
+  background-color: var(--button-color);
+  display: inline-block;
+  padding: 6px 25px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
