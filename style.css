@@ -162,3 +162,8 @@ a {
   display: flex;
   justify-content: space-between;
 }
+.footer{
+  color: var(--secondary-text-white);
+  text-align: center;
+  padding: 30px;
+}
